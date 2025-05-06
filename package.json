@@ -1,14 +1,21 @@
 {
   "name": "whatsapp-server",
   "version": "1.0.0",
+  "description": "Servidor Node.js com whatsapp-web.js e Express",
   "main": "index.js",
   "scripts": {
     "start": "node index.js"
   },
   "dependencies": {
     "express": "^4.18.2",
-    "whatsapp-web.js": "^1.21.0",
     "qrcode": "^1.5.1",
-    "socket.io": "^4.7.2"
-  }
+    "socket.io": "^4.7.2",
+    "whatsapp-web.js": "^1.22.1"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "keywords": [],
+  "author": "Seu Nome",
+  "license": "MIT"
 }
